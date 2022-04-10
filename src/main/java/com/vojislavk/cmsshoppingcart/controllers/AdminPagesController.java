@@ -27,9 +27,9 @@ public class AdminPagesController {
     @Autowired
     private PageRepository pageRepo;
 
-    // public AdminPagesController(PageRepository pageRepo) {
-    //     this.pageRepo = pageRepo;
-    // }
+//     public AdminPagesController(PageRepository pageRepo) {
+//        this.pageRepo = pageRepo;
+//     }
 
     @GetMapping
     public String index(Model model) {
